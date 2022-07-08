@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="basics.SonClass">
+        <methods>
+          <include name="start"/>
+          <include name="end"/>
+          <include name="startOrangeHRM"/>
+        </methods>
+      </class> <!-- basics.SonClass -->
+      <class name="basics.DaughterClass">
+        <methods>
+          <include name="start"/>
+          <include name="end"/>
+          <include name="startMercuryNewDemo"/>
+        </methods>
+      </class> <!-- basics.DaughterClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
